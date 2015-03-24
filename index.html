@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<div id="foo"><h1>Rang De Basanti<br>(Color it saffron)</h1></div>
+
+	<div id="big"></div>
+
+	<div class="button"><a href="index.html">Reset</a></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready( function(){
+	var pt = '<table>';
+	for(var i=0; i<30; i++){
+		pt += '<tr>';
+		for(var j=0; j<69; j++){
+			pt += '<td class="element"></td>'
+		}
+		pt += '</tr>';
+	}
+	pt += '</table>'
+	$('#big').append(pt);
+
+	$('.element').mouseover( function(){
+		$(this).addClass('phover');
+	});
+});
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

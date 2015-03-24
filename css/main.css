@@ -1,0 +1,48 @@
+#big {
+	width: 900px;
+	margin: 30px auto;
+	background-color: #f93;
+}
+
+.element {
+	height: 9px;
+	width: 9px;
+	background-color: white;
+
+}
+
+body {
+	background-color: #f93;
+}
+
+#foo {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	width: 500px;
+	margin: 0px auto;
+	
+}
+
+.phover {
+	background-color: #f93;
+}
+
+table {
+	cursor: crosshair;
+}
+
+.button {
+	text-align: center;
+	font-size: 2em;
+	width: 100px;
+	margin: 0px auto;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 20px black;
+}
+
+a {
+	text-decoration: none;
+	color: #f93;
+}
